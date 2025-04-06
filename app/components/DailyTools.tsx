@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const ToolIcon = ({ icon, alt }) => (
+const ToolIcon = ({ icon, alt }:any) => (
   <div className="bg-white py-6   rounded-lg flex justify-center items-center transition-transform cursor-pointer hover:scale-105">
     <Image
       src={icon}
