@@ -9,27 +9,24 @@ import Head from "next/head";
 import Projectss from "./components/Projectss";
 export default function Home() {
   return (
-    <div className="bg-zinc-950 min-h-screen">
+    <div className="bg-zinc-950  min-h-screen container">
       <Head>
-        <title>Shawn - Backend Developer</title>
-        <meta name="description" content="Portfolio of Shawn, a backend developer" />
+        <title>Rohan - Frontend Developer</title>
+        <meta name="description" content="Portfolio of Rohan, a Frontend developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container mx-auto p-4">
-        <div className="grid grid-cols-12 gap-4">
-          {/* Left column - Tech Stack */}
+      <main className="container mx-auto w-6xl p-4">
+        <div className="grid grid-cols-12 gap-2">
           <div className="col-span-12 md:col-span-4 h-full">
             <TechStack />
           </div>
           
-          {/* Middle column - Profile and Daily Tools */}
           <div className="col-span-12 md:col-span-5 space-y-4">
             <ProfileCard />
             <DailyTools />
           </div>
           
-          {/* Right column - Social Links and Project */}
           <div className="col-span-12 md:col-span-3 space-y-4">
             <div className="bg-black p-4 rounded-lg">
               <div className="text-4xl font-bold text-white mb-2">

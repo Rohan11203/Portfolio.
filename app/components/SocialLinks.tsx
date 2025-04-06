@@ -1,4 +1,3 @@
-// components/SocialLinks.jsx
 import React from 'react';
 import Link from 'next/link';
 import { Github, Twitter, Mail, Disc, Linkedin } from 'lucide-react';

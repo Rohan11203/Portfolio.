@@ -1,4 +1,3 @@
-// components/DailyTools.jsx
 import React from "react";
 import Image from "next/image";
 
@@ -31,18 +30,14 @@ const DailyTools = () => {
         <div className="text-4xl font-bold mb-4">STACK.</div>
 
         <div className="flex gap-4">
-          {/* Tool icons column */}
           <div className="w-26 flex flex-col gap-2">
             {tools.map((tool, index) => (
               <ToolIcon key={index} icon={tool.icon} alt={tool.name} />
             ))}
           </div>
 
-          {/* Content column */}
           <div className="w-3/4 space-y-3">
-            {/* Blue wave */}
 
-            {/* Space image */}
             <div className="w-full rounded-lg overflow-hidden">
               <iframe
                 style={{ borderRadius: "12px" }}
@@ -56,7 +51,6 @@ const DailyTools = () => {
               ></iframe>
             </div>
 
-            {/* Bottom section with quote and anime character */}
             <div className="flex justify-between items-end">
               <div>
                 <p className="text-gray-400 italic text-sm">

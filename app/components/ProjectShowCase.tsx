@@ -26,13 +26,11 @@ const ProjectShowcase = () => {
   }
 
   useEffect(() => {
-    // Update visible projects when currentIndex changes
     setVisibleProjects(projects.slice(currentIndex, currentIndex + 3))
   }, [currentIndex])
 
   return (
     <div className="relative w-full min-h-screen overflow-hidden py-12 ">
-      {/* Back button */}
       <div className="absolute top-12 left-12 z-10 ">
         <button 
         onClick={handleClick}
@@ -41,7 +39,6 @@ const ProjectShowcase = () => {
         </button>
       </div>
 
-      {/* Navigation arrows */}
       <div className="absolute top-12 right-12 z-10 flex space-x-2">
         <button onClick={goToPrevious} className="bg-gray-700 hover:bg-gray-600 p-3 rounded-full transition-colors">
           <ArrowLeft className="h-5 w-5 text-white" />
@@ -51,7 +48,6 @@ const ProjectShowcase = () => {
         </button>
       </div>
 
-      {/* Projects container */}
       <div className="flex justify-center items-center h-full mt-16">
         <div className="flex space-x-6 px-6">
           {visibleProjects.map((project, index) => (
@@ -60,7 +56,6 @@ const ProjectShowcase = () => {
         </div>
       </div>
 
-      {/* Pagination dots */}
       <div className="flex justify-center mt-8">
         {Array.from({ length: projects.length - 2 }).map((_, index) => (
           <button

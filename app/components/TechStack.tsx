@@ -1,4 +1,3 @@
-// components/TechStack.jsx
 "use client";
 import React from "react";
 
@@ -17,16 +16,16 @@ const TechStack = () => {
     },
     {
       title: "Backend:",
-      technologies: ["Nodejs", "Expressjs", "NPM"],
+      technologies: ["Nodejs", "Expressjs", "NPM", "WebSockets"],
     },
     {
       title: "Db & Services:",
-      technologies: ["Prisma ORM", "Postman", "Postgres", "MongoDB"],
+      technologies: ["Prisma ORM", "Postman", "PostgreSQL", "MongoDB"],
     },
   ];
 
   return (
-    <div className="bg-black text-white ml-32 p-6 rounded-lg w-2/3 h-120">
+    <div className="bg-black text-white  p-6 rounded-lg w-[350px] h-[500px]">
       <div className="flex items-center mb-6">
         <div className="text-4xl font-bold">
           <div className="flex gap-2">
