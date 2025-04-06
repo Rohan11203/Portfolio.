@@ -1,9 +1,7 @@
 "use client"
-import Image from "next/image";
 import TechStack from "@/app/components//TechStack"
 import ProfileCard from "@/app/components/ProfileCard"
 import SocialLinks  from "@/app/components/SocialLinks"
-import ProjectCard from "@/app/components/ProjectCard"
 import DailyTools from "@/app/components/DailyTools"
 import Head from "next/head";
 import Projectss from "./components/Projectss";
