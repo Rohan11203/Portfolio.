@@ -25,7 +25,7 @@ const TechStack = () => {
   ];
 
   return (
-    <div className="bg-black text-white  p-6 rounded-lg w-[350px] h-[500px]">
+    <div className="bg-black w-[330px]  text-white  p-6 rounded-lg  h-[500px]">
       <div className="flex items-center mb-6">
         <div className="text-4xl font-bold">
           <div className="flex gap-2">

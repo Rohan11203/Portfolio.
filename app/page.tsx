@@ -7,7 +7,7 @@ import Head from "next/head";
 import Projectss from "./components/Projectss";
 export default function Home() {
   return (
-    <div className="bg-zinc-950  min-h-screen container">
+    <div className="bg-zinc-950  min-h-screen container overflow-x-hidden">
       <Head>
         <title>Rohan - Frontend Developer</title>
         <meta name="description" content="Portfolio of Rohan, a Frontend developer" />
@@ -25,9 +25,9 @@ export default function Home() {
             <DailyTools />
           </div>
           
-          <div className="col-span-12 md:col-span-3 space-y-4">
+          <div className="col-span-12 md:col-span-3 space-y-4  w-[330px] ">
             <div className="bg-black p-4 rounded-lg">
-              <div className="text-4xl font-bold text-white mb-2">
+              <div className="text-3xl md:text-4xl  font-bold text-white mb-2">
                 LINKS.
               </div>
               <SocialLinks />

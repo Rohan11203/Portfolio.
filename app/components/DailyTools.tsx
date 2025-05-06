@@ -28,7 +28,7 @@ const DailyTools = () => {
   ];
 
   return (
-    <div className="bg-black text-white p-6 rounded-lg">
+    <div className="bg-black text-white p-6 rounded-lg md:w-full w-[330px]">
       <div className="flex flex-col">
         <div className="text-4xl uppercase font-bold">DAILY</div>
         <div className="text-3xl font-medium mb-1">Tool</div>
@@ -42,7 +42,7 @@ const DailyTools = () => {
           </div>
 
           <div className="w-3/4 space-y-3">
-            <div className="w-full rounded-lg overflow-hidden">
+            <div className="w-fit rounded-lg overflow-hidden">
               <iframe
                 style={{ borderRadius: "12px" }}
                 src="https://open.spotify.com/embed/track/3qhlB30KknSejmIvZZLjOD?utm_source=generator"
