@@ -32,10 +32,10 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             />
           </div>
 
-          <div className="absolute bottom-4 right-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div className="absolute bottom-4 right-4 z-20 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
             <Link 
             href={project.link}
-            className="bg-white text-black rounded-full px-4 py-2 text-sm font-medium flex items-center gap-1 hover:bg-white/90 transition-colors">
+            className="bg-white text-black rounded-full px-4 py-2 text-sm font-medium flex items-center gap-1 hover:bg-white/70   transition-colors">
               View Project <ArrowUpRight size={16} />
             </Link>
           </div>
