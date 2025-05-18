@@ -48,8 +48,8 @@ const ProjectShowcase = () => {
         </button>
       </div>
 
-      <div className="flex justify-center items-center h-full mt-16">
-        <div className="flex space-x-6 px-6">
+      <div className="flex justify-center items-center h-full mt-16 ">
+        <div className="flex flex-wrap gap-6 px-6 ">
           {visibleProjects.map((project, index) => (
             <ProjectCard key={`${project.title}-${index}`} project={project} />
           ))}
